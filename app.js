@@ -136,7 +136,8 @@ array1('Dog','Brown')
 
 // Your code here
 
-let pizza = 'tasty' ? console.log('yum') : console.log('yuck')
+let pizza = 'tasty' 
+let isTasty = pizza === 'tasty' ? 'yum' : 'yuck'
 
 console.log(pizza)
 
